@@ -1,0 +1,722 @@
+[
+  {
+    "data": {
+      "id": "msg_000001",
+      "scenario_id": "scenario_0001",
+      "text": "Після оплати курс все одно недоступний у моєму кабінеті.",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000002",
+      "scenario_id": "scenario_0001",
+      "text": "I paid for the course, but it still isn't available in my account.",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000003",
+      "scenario_id": "scenario_0002",
+      "text": "Я придбала програму тренувань, але не бачу її у своєму профілі.",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000004",
+      "scenario_id": "scenario_0002",
+      "text": "I purchased the training program, but I can't see it in my profile.",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000005",
+      "scenario_id": "scenario_0003",
+      "text": "Після процедури мені мали відкрити рекомендації з догляду, але система пише, що доступ заборонено.",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000006",
+      "scenario_id": "scenario_0003",
+      "text": "I was supposed to receive access to the aftercare instructions, but the page says access is denied.",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000007",
+      "scenario_id": "scenario_0004",
+      "text": "Після консультації мені надіслали документи, але я не маю прав для їх перегляду.",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000008",
+      "scenario_id": "scenario_0004",
+      "text": "The documents were shared with me after the consultation, but I don't have permission to view them.",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000009",
+      "scenario_id": "scenario_0005",
+      "text": "О котрій починається наступний вебінар?",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000010",
+      "scenario_id": "scenario_0005",
+      "text": "What time does the next webinar start?",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000011",
+      "scenario_id": "scenario_0006",
+      "text": "Коли відбудеться моє наступне тренування з тренером?",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000012",
+      "scenario_id": "scenario_0006",
+      "text": "When is my next coaching session scheduled?",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000013",
+      "scenario_id": "scenario_0007",
+      "text": "Підкажіть, будь ласка, на котру годину в мене завтра запис на процедуру?",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000014",
+      "scenario_id": "scenario_0007",
+      "text": "What time is my beauty appointment tomorrow?",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000015",
+      "scenario_id": "scenario_0008",
+      "text": "Коли відбудеться моя наступна консультація?",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000016",
+      "scenario_id": "scenario_0008",
+      "text": "When is my upcoming consultation scheduled?",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000017",
+      "scenario_id": "scenario_0009",
+      "text": "Не розумію, як правильно виконати другу вправу з уроку.",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000018",
+      "scenario_id": "scenario_0009",
+      "text": "I don't understand how to complete the second exercise in the lesson.",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000019",
+      "scenario_id": "scenario_0010",
+      "text": "Скільки повторень цієї вправи потрібно робити за один підхід?",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000020",
+      "scenario_id": "scenario_0010",
+      "text": "How many repetitions of this exercise should I do in one set?",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000021",
+      "scenario_id": "scenario_0011",
+      "text": "Не зовсім розумію, як виконувати рекомендації з догляду після процедури.",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000022",
+      "scenario_id": "scenario_0011",
+      "text": "I'm not sure how to follow the aftercare instructions after the procedure.",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000023",
+      "scenario_id": "scenario_0012",
+      "text": "Поясніть, будь ласка, як правильно заповнювати шаблон, який ви мені надіслали.",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000024",
+      "scenario_id": "scenario_0012",
+      "text": "Could you explain how I should complete the template you sent me?",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000025",
+      "scenario_id": "scenario_0013",
+      "text": "Що входить у програму цього курсу?",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000026",
+      "scenario_id": "scenario_0013",
+      "text": "What is included in this course?",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000027",
+      "scenario_id": "scenario_0014",
+      "text": "Що входить у пакет персонального тренерського супроводу?",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000028",
+      "scenario_id": "scenario_0014",
+      "text": "What is included in the personal coaching package?",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000029",
+      "scenario_id": "scenario_0015",
+      "text": "Що саме входить у цю косметологічну процедуру?",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000030",
+      "scenario_id": "scenario_0015",
+      "text": "What exactly is included in this beauty treatment?",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000031",
+      "scenario_id": "scenario_0016",
+      "text": "Що входить у вартість консультації?",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000032",
+      "scenario_id": "scenario_0016",
+      "text": "What is included in the consultation service?",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000033",
+      "scenario_id": "scenario_0017",
+      "text": "Урок відкривається, але відео не запускається.",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000034",
+      "scenario_id": "scenario_0017",
+      "text": "I can open the lesson, but the video won't play.",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000035",
+      "scenario_id": "scenario_0018",
+      "text": "Я бачу файл з програмою тренувань, але кнопка завантаження не працює.",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000036",
+      "scenario_id": "scenario_0018",
+      "text": "I can see the workout file, but the download button doesn't work.",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000037",
+      "scenario_id": "scenario_0019",
+      "text": "Сторінка з рекомендаціями після процедури відкривається, але постійно показує помилку.",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000038",
+      "scenario_id": "scenario_0019",
+      "text": "The aftercare page opens, but it keeps showing an error.",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000039",
+      "scenario_id": "scenario_0020",
+      "text": "Я можу увійти в клієнтський кабінет, але завантажений документ не відкривається.",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000040",
+      "scenario_id": "scenario_0020",
+      "text": "I can access the client portal, but the uploaded document won't open.",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000041",
+      "scenario_id": "scenario_0021",
+      "text": "Чи можете продовжити дедлайн здачі завдання до понеділка?",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000042",
+      "scenario_id": "scenario_0021",
+      "text": "Could you extend the assignment deadline until Monday?",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000043",
+      "scenario_id": "scenario_0022",
+      "text": "Мені потрібно перенести тренування з тренером на інший день.",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000044",
+      "scenario_id": "scenario_0022",
+      "text": "I need to reschedule my coaching session to another day.",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000045",
+      "scenario_id": "scenario_0023",
+      "text": "Перенесіть, будь ласка, мій запис на процедуру з вівторка на четвер.",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000046",
+      "scenario_id": "scenario_0023",
+      "text": "Please move my appointment from Tuesday to Thursday.",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000047",
+      "scenario_id": "scenario_0024",
+      "text": "Я хочу скасувати заплановану на завтра консультацію.",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000048",
+      "scenario_id": "scenario_0024",
+      "text": "I would like to cancel my consultation scheduled for tomorrow.",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000049",
+      "scenario_id": "scenario_0025",
+      "text": "Мені дуже сподобалася структура курсу, матеріал поданий зрозуміло.",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000050",
+      "scenario_id": "scenario_0025",
+      "text": "I really liked the course structure and how clearly the material was presented.",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000051",
+      "scenario_id": "scenario_0026",
+      "text": "Програма тренувань мені подобається, але зворотного зв'язку від тренера хотілося б більше.",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000052",
+      "scenario_id": "scenario_0026",
+      "text": "I like the training program, but I wish there were more feedback from the coach.",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000053",
+      "scenario_id": "scenario_0027",
+      "text": "Я дуже задоволена процедурою та ставленням персоналу.",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000054",
+      "scenario_id": "scenario_0027",
+      "text": "I'm very happy with the treatment and the service I received.",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000055",
+      "scenario_id": "scenario_0028",
+      "text": "Консультація була корисною, але відповідь на мої подальші питання довелося чекати занадто довго.",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000056",
+      "scenario_id": "scenario_0028",
+      "text": "The consultation was useful, but I had to wait too long for answers to my follow-up questions.",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000057",
+      "scenario_id": "scenario_0029",
+      "text": "З'єднайте мене, будь ласка, з викладачем або працівником підтримки.",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000058",
+      "scenario_id": "scenario_0029",
+      "text": "Please connect me with a tutor or a human support agent.",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000059",
+      "scenario_id": "scenario_0030",
+      "text": "Я хочу поговорити з тренером особисто.",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000060",
+      "scenario_id": "scenario_0030",
+      "text": "I'd like to speak directly with my trainer.",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000061",
+      "scenario_id": "scenario_0031",
+      "text": "Можна поговорити з адміністратором або менеджером салону?",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000062",
+      "scenario_id": "scenario_0031",
+      "text": "Can I speak with a salon representative or manager?",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000063",
+      "scenario_id": "scenario_0032",
+      "text": "Будь ласка, з'єднайте мене з консультантом, я хочу обговорити питання особисто.",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000064",
+      "scenario_id": "scenario_0032",
+      "text": "Please connect me with a consultant. I'd like to discuss this with a person directly.",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000065",
+      "scenario_id": "scenario_0033",
+      "text": "Хто вчора виграв футбольний матч?",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000066",
+      "scenario_id": "scenario_0033",
+      "text": "Who won the football match yesterday?",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000067",
+      "scenario_id": "scenario_0034",
+      "text": "Яка сьогодні погода?",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000068",
+      "scenario_id": "scenario_0034",
+      "text": "What's the weather like today?",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000069",
+      "scenario_id": "scenario_0035",
+      "text": "Розкажи мені анекдот.",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000070",
+      "scenario_id": "scenario_0035",
+      "text": "Tell me a joke.",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000071",
+      "scenario_id": "scenario_0036",
+      "text": "asdfgh qwerty 123",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000072",
+      "scenario_id": "scenario_0036",
+      "text": "qwerty asdfgh 456",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  }
+]

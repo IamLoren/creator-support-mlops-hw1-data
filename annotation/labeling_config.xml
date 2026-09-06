@@ -1,0 +1,25 @@
+<View>
+  <Header value="Customer Support Intent Classification"/>
+
+  <Text
+    name="message"
+    value="$text"
+  />
+
+  <Choices
+    name="intent"
+    toName="message"
+    choice="single"
+    required="true"
+  >
+    <Choice value="ACCESS_ACCOUNT"/>
+    <Choice value="SCHEDULE_DEADLINE"/>
+    <Choice value="CONTENT_USAGE_QUESTION"/>
+    <Choice value="SERVICE_INFO"/>
+    <Choice value="TECHNICAL_ISSUE"/>
+    <Choice value="CHANGE_CANCEL"/>
+    <Choice value="FEEDBACK_COMPLAINT"/>
+    <Choice value="HUMAN_SUPPORT"/>
+    <Choice value="OTHER"/>
+  </Choices>
+</View>
