@@ -210,3 +210,75 @@ Use:
 - `SCHEDULE_DEADLINE` → the user wants to know **when** something happens, starts, ends, or must be completed;
 - `CHANGE_CANCEL` → the user wants to **modify or cancel** an existing schedule, booking, appointment, or service;
 - `SERVICE_INFO` → the user asks general descriptive information about the service or product.
+
+---
+
+## 4. SERVICE_INFO
+
+### Definition
+
+Use `SERVICE_INFO` when the user's main request is to get general information
+about a product, service, program, course, package, subscription, or offer.
+
+Typical questions include:
+
+- what is included;
+- how the service works;
+- who the service is for;
+- price-related or package-related information;
+- general availability;
+- duration of the whole service or program;
+- requirements or conditions for using the service.
+
+### Positive examples
+
+Ukrainian:
+
+- "Що входить у програму курсу?"
+- "Чи підходить цей курс для початківців?"
+- "Скільки триває весь курс?"
+- "Які матеріали входять у пакет?"
+- "Чи є у вас консультації англійською мовою?"
+
+English:
+
+- "What is included in the course?"
+- "Is this program suitable for beginners?"
+- "How many weeks does the course last?"
+- "What materials are included in the package?"
+- "Do you offer consultations in English?"
+
+### Do not use when
+
+Do not use `SERVICE_INFO` when the user asks about a specific scheduled event,
+deadline, appointment, or date.
+
+Example:
+
+> "О котрій завтра починається вебінар?"
+
+Classification:
+
+`SCHEDULE_DEADLINE`
+
+Do not use `SERVICE_INFO` when the user is asking how to understand,
+use, or apply specific content or instructions.
+
+Example:
+
+> "Як правильно виконувати вправу з третього модуля?"
+
+Classification:
+
+`CONTENT_USAGE_QUESTION`
+
+### Boundary rule
+
+Use:
+
+- `SERVICE_INFO` → the user asks **what the product/service is, includes, costs,
+  offers, or how it is generally organized**;
+- `SCHEDULE_DEADLINE` → the user asks **when a specific event happens
+  or when something must be completed**;
+- `CONTENT_USAGE_QUESTION` → the user asks **how to understand, use,
+  follow, or apply specific content or instructions**.
