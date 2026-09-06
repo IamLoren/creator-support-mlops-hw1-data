@@ -1,0 +1,722 @@
+[
+  {
+    "data": {
+      "id": "msg_000073",
+      "scenario_id": "scenario_0037",
+      "text": "Не можу увійти в акаунт, система не приймає мої дані для входу.",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000074",
+      "scenario_id": "scenario_0037",
+      "text": "I can't log into my account because the system won't accept my login details.",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000075",
+      "scenario_id": "scenario_0038",
+      "text": "Я оплатила абонемент, але в застосунку він досі відображається як неактивний.",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000076",
+      "scenario_id": "scenario_0038",
+      "text": "I paid for my membership, but the app still shows it as inactive.",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000077",
+      "scenario_id": "scenario_0039",
+      "text": "Мені відкрили матеріали після процедури, але портал пише, що в мене немає дозволу на перегляд.",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000078",
+      "scenario_id": "scenario_0039",
+      "text": "I was given access to the post-treatment materials, but the portal says I don't have permission to view them.",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000079",
+      "scenario_id": "scenario_0040",
+      "text": "Не можу відкрити спільну папку з документами — система відмовляє в доступі.",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000080",
+      "scenario_id": "scenario_0040",
+      "text": "I can't open the shared client folder because the system denies access.",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000081",
+      "scenario_id": "scenario_0041",
+      "text": "До якого числа потрібно здати це завдання?",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000082",
+      "scenario_id": "scenario_0041",
+      "text": "What is the deadline for submitting this assignment?",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000083",
+      "scenario_id": "scenario_0042",
+      "text": "О котрій сьогодні починається групове онлайн-тренування?",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000084",
+      "scenario_id": "scenario_0042",
+      "text": "What time does today's live group workout start?",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000085",
+      "scenario_id": "scenario_0043",
+      "text": "Коли в мене запланований контрольний огляд після процедури?",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000086",
+      "scenario_id": "scenario_0043",
+      "text": "When is my follow-up appointment after the procedure scheduled?",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000087",
+      "scenario_id": "scenario_0044",
+      "text": "До якої дати я маю надіслати вам запитані документи?",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000088",
+      "scenario_id": "scenario_0044",
+      "text": "By what date do I need to send the requested documents?",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000089",
+      "scenario_id": "scenario_0045",
+      "text": "Не розумію, що саме означає вимога про мінімальний прохідний бал.",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000090",
+      "scenario_id": "scenario_0045",
+      "text": "I don't understand what the minimum passing score requirement means.",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000091",
+      "scenario_id": "scenario_0046",
+      "text": "Поясніть, будь ласка, як правильно виконувати румунську тягу з моєї програми.",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000092",
+      "scenario_id": "scenario_0046",
+      "text": "Could you explain how I should perform the Romanian deadlift in my training plan?",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000093",
+      "scenario_id": "scenario_0047",
+      "text": "Як часто потрібно наносити цей засіб після процедури?",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000094",
+      "scenario_id": "scenario_0047",
+      "text": "How often should I apply this product after the treatment?",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000095",
+      "scenario_id": "scenario_0048",
+      "text": "Що саме потрібно вказати в третьому розділі форми, яку ви мені надіслали?",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000096",
+      "scenario_id": "scenario_0048",
+      "text": "What exactly should I enter in the third section of the form you sent me?",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000097",
+      "scenario_id": "scenario_0049",
+      "text": "Чи потрібен попередній досвід, щоб записатися на цей курс?",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000098",
+      "scenario_id": "scenario_0049",
+      "text": "Do I need any previous experience to join this course?",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000099",
+      "scenario_id": "scenario_0050",
+      "text": "Скільки персональних консультацій із тренером входить у цей пакет?",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000100",
+      "scenario_id": "scenario_0050",
+      "text": "How many personal coaching sessions are included in this package?",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000101",
+      "scenario_id": "scenario_0051",
+      "text": "Скільки зазвичай триває період відновлення після цієї процедури?",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000102",
+      "scenario_id": "scenario_0051",
+      "text": "How long is the usual recovery period after this treatment?",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000103",
+      "scenario_id": "scenario_0052",
+      "text": "Чи входить перевірка документів у вартість консультаційного пакета?",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000104",
+      "scenario_id": "scenario_0052",
+      "text": "Is document review included in the consulting package?",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000105",
+      "scenario_id": "scenario_0053",
+      "text": "Завдання відкривається, але кнопка «Надіслати» не реагує.",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000106",
+      "scenario_id": "scenario_0053",
+      "text": "I can open the assignment, but the Submit button doesn't respond.",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000107",
+      "scenario_id": "scenario_0054",
+      "text": "Застосунок закривається щоразу, коли я відкриваю сьогоднішнє тренування.",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000108",
+      "scenario_id": "scenario_0054",
+      "text": "The app crashes every time I open today's workout.",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000109",
+      "scenario_id": "scenario_0055",
+      "text": "Сторінка запису відкривається, але я не можу вибрати дату в календарі.",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000110",
+      "scenario_id": "scenario_0055",
+      "text": "The booking page opens, but I can't select a date in the calendar.",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000111",
+      "scenario_id": "scenario_0056",
+      "text": "Я можу зайти в клієнтський кабінет, але завантаження документа постійно завершується помилкою.",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000112",
+      "scenario_id": "scenario_0056",
+      "text": "I can access the client portal, but document uploads keep failing.",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000113",
+      "scenario_id": "scenario_0057",
+      "text": "Переведіть мене, будь ласка, до іншої групи вебінару.",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000114",
+      "scenario_id": "scenario_0057",
+      "text": "Please move me to a different webinar group.",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000115",
+      "scenario_id": "scenario_0058",
+      "text": "Я хочу призупинити свій фітнес-абонемент на місяць.",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000116",
+      "scenario_id": "scenario_0058",
+      "text": "I'd like to pause my fitness membership for one month.",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000117",
+      "scenario_id": "scenario_0059",
+      "text": "Скасуйте, будь ласка, мій запис на процедуру в суботу.",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000118",
+      "scenario_id": "scenario_0059",
+      "text": "Please cancel my appointment for Saturday.",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000119",
+      "scenario_id": "scenario_0060",
+      "text": "Мені потрібно перенести консультацію з середи на п'ятницю.",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000120",
+      "scenario_id": "scenario_0060",
+      "text": "I need to reschedule my consultation from Wednesday to Friday.",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000121",
+      "scenario_id": "scenario_0061",
+      "text": "Пояснення в курсі надто поверхневі, мені бракує конкретики.",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000122",
+      "scenario_id": "scenario_0061",
+      "text": "The course explanations are too superficial and lack enough detail.",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000123",
+      "scenario_id": "scenario_0062",
+      "text": "Персональна програма тренувань чудово підійшла під мої цілі, дякую.",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000124",
+      "scenario_id": "scenario_0062",
+      "text": "The personalized training plan fits my goals really well. Thank you!",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000125",
+      "scenario_id": "scenario_0063",
+      "text": "Я чекала на процедуру майже годину, сервісом дуже незадоволена.",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000126",
+      "scenario_id": "scenario_0063",
+      "text": "I waited almost an hour for my treatment and I'm very unhappy with the service.",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000127",
+      "scenario_id": "scenario_0064",
+      "text": "Консультант дуже чітко пояснив усі питання, консультація була справді корисною.",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000128",
+      "scenario_id": "scenario_0064",
+      "text": "The consultant explained everything very clearly. The consultation was genuinely helpful.",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000129",
+      "scenario_id": "scenario_0065",
+      "text": "Я хочу поговорити безпосередньо з викладачем.",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000130",
+      "scenario_id": "scenario_0065",
+      "text": "I'd like to speak directly with the tutor.",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000131",
+      "scenario_id": "scenario_0066",
+      "text": "Можете з'єднати мене з моїм тренером?",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000132",
+      "scenario_id": "scenario_0066",
+      "text": "Can you connect me with my coach?",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000133",
+      "scenario_id": "scenario_0067",
+      "text": "Я хочу поговорити з менеджером салону.",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000134",
+      "scenario_id": "scenario_0067",
+      "text": "I'd like to speak with the salon manager.",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000135",
+      "scenario_id": "scenario_0068",
+      "text": "Будь ласка, з'єднайте мене безпосередньо з консультантом.",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000136",
+      "scenario_id": "scenario_0068",
+      "text": "Please connect me directly with the consultant.",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000137",
+      "scenario_id": "scenario_0069",
+      "text": "Як приготувати домашню піцу?",
+      "language": "uk",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000138",
+      "scenario_id": "scenario_0069",
+      "text": "How do I make pizza at home?",
+      "language": "en",
+      "domain": "education",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000139",
+      "scenario_id": "scenario_0070",
+      "text": "Порадьте хороший фільм на вечір.",
+      "language": "uk",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000140",
+      "scenario_id": "scenario_0070",
+      "text": "Can you recommend a good movie for tonight?",
+      "language": "en",
+      "domain": "fitness",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000141",
+      "scenario_id": "scenario_0071",
+      "text": "Привіт, як у вас сьогодні справи?",
+      "language": "uk",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000142",
+      "scenario_id": "scenario_0071",
+      "text": "Hi, how are you doing today?",
+      "language": "en",
+      "domain": "beauty",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000143",
+      "scenario_id": "scenario_0072",
+      "text": "Які місця варто відвідати у Варшаві?",
+      "language": "uk",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  },
+  {
+    "data": {
+      "id": "msg_000144",
+      "scenario_id": "scenario_0072",
+      "text": "What places should I visit in Warsaw?",
+      "language": "en",
+      "domain": "professional_services",
+      "source": "manual"
+    }
+  }
+]

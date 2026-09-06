@@ -72,3 +72,37 @@ This homework covers:
 - remote dataset storage.
 
 Model training is not part of Homework 1.
+
+## Dataset Versions
+
+### v0.1
+
+- 72 annotated messages
+- 36 semantic scenarios
+- 2 languages: Ukrainian and English
+- 4 business domains
+- 9 intent classes
+- 8 examples per intent
+
+Git tag: `dataset-v0.1`
+
+### v0.2
+
+- 144 annotated messages
+- 72 semantic scenarios
+- 2 languages: Ukrainian and English
+- 4 business domains
+- 9 intent classes
+- 16 examples per intent
+
+Git tag: `dataset-v0.2`
+
+The canonical annotated dataset uses a stable logical path:
+
+`data/annotated/customer_support_intents.json`
+
+Dataset content is versioned with DVC. Git commits and tags identify dataset releases.
+
+## Data Lineage
+
+Raw messages → Label Studio → manual annotation → Label Studio export → canonical dataset → validation → DVC → Cloudflare R2
