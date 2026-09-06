@@ -623,3 +623,61 @@ Use:
   manager, consultant, callback, or human support**;
 - another intent → the user describes a concrete problem or action request
   without explicitly asking to communicate with a human.
+
+---
+
+## 9. OTHER
+
+### Definition
+
+Use `OTHER` when the user's message does not fit any of the defined
+customer-support intent classes.
+
+Typical cases include:
+
+- unrelated questions;
+- casual conversation;
+- spam-like or meaningless messages;
+- unsupported topics;
+- messages where no defined intent can be identified reliably.
+
+### Positive examples
+
+Ukrainian:
+
+- "Який сьогодні курс долара?"
+- "Розкажи анекдот."
+- "Хто виграв учорашній матч?"
+- "Привіт :)"
+- "asdfgh123"
+
+English:
+
+- "What's the weather today?"
+- "Tell me a joke."
+- "Who won the game yesterday?"
+- "Hi :)"
+- "qwerty123"
+
+### Do not use when
+
+Do not use `OTHER` simply because the message is short or unusual.
+
+Example:
+
+> "Не працює."
+
+If the context clearly indicates a technical problem, classify it as:
+
+`TECHNICAL_ISSUE`
+
+Do not use `OTHER` when one of the defined intent classes fits the user's
+main goal, even if the wording is informal or contains spelling mistakes.
+
+### Boundary rule
+
+Use:
+
+- `OTHER` → no existing intent matches the message reliably;
+- one of the defined intents → the user's main goal can still be identified
+  despite informal language, typos, or unusual phrasing.
