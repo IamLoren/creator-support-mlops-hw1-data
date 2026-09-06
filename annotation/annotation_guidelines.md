@@ -190,6 +190,19 @@ Depending on the dataset rules, this should usually be classified as:
 
 `SERVICE_INFO`
 
+### Deadline change requests
+
+Do not use `SCHEDULE_DEADLINE` when the user asks to extend, move,
+or otherwise change an existing deadline.
+
+Example:
+
+> "Я пропустила дедлайн. Чи можна здати завдання завтра?"
+
+Classification:
+
+`CHANGE_CANCEL`
+
 ### Boundary rule
 
 Use:
