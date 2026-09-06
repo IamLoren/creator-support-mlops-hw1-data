@@ -282,3 +282,86 @@ Use:
   or when something must be completed**;
 - `CONTENT_USAGE_QUESTION` → the user asks **how to understand, use,
   follow, or apply specific content or instructions**.
+
+---
+
+## 5. CONTENT_USAGE_QUESTION
+
+### Definition
+
+Use `CONTENT_USAGE_QUESTION` when the user's main request is about
+how to understand, use, follow, apply, or complete specific content,
+instructions, materials, exercises, recommendations, or product guidance.
+
+Typical questions include:
+
+- how to complete an exercise;
+- how to use provided materials;
+- how to follow an instruction;
+- what a specific part of the content means;
+- how to apply a recommendation;
+- clarification of educational or instructional content.
+
+### Positive examples
+
+Ukrainian:
+
+- "Як правильно виконати другу вправу?"
+- "Не розумію, що означає третій пункт інструкції."
+- "Як використовувати цей шаблон?"
+- "Як часто потрібно виконувати цю вправу?"
+- "Поясніть, будь ласка, як застосувати рекомендації з PDF."
+
+English:
+
+- "How should I complete the second exercise?"
+- "I don't understand the third step in the instructions."
+- "How do I use this template?"
+- "How often should I do this exercise?"
+- "Can you explain how to apply the recommendations from the PDF?"
+
+### Do not use when
+
+Do not use `CONTENT_USAGE_QUESTION` when the user asks general information
+about what a product, service, course, or package includes.
+
+Example:
+
+> "Що входить у програму курсу?"
+
+Classification:
+
+`SERVICE_INFO`
+
+Do not use `CONTENT_USAGE_QUESTION` when the content cannot be opened,
+downloaded, played, or otherwise accessed because of a technical problem.
+
+Example:
+
+> "PDF не завантажується."
+
+Classification:
+
+`TECHNICAL_ISSUE`
+
+Do not use `CONTENT_USAGE_QUESTION` when the user has no permission
+or access to the content.
+
+Example:
+
+> "У мене немає доступу до другого модуля."
+
+Classification:
+
+`ACCESS_ACCOUNT`
+
+### Boundary rule
+
+Use:
+
+- `CONTENT_USAGE_QUESTION` → the user **has the content and asks how to
+  understand, use, follow, or apply it**;
+- `SERVICE_INFO` → the user asks **general information about the product
+  or service**;
+- `TECHNICAL_ISSUE` → the content or feature **does not work correctly**;
+- `ACCESS_ACCOUNT` → the user **does not have permission or access**.
