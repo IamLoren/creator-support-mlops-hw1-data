@@ -7,7 +7,7 @@ EXPORT_PATH = Path(
 )
 
 OUTPUT_PATH = Path(
-    "data/annotated/customer_support_intents_v0.1.json"
+    "data/annotated/customer_support_intents.json"
 )
 
 
