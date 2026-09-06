@@ -1,34 +1,34 @@
 [
-    {
-      "id": "uk_education_0001",
-      "scenario_id": "education_access_001",
-      "text": "Після оплати курс все одно недоступний у моєму кабінеті.",
-      "language": "uk",
-      "domain": "education",
-      "source": "manual"
-    },
-    {
-      "id": "en_education_0001",
-      "scenario_id": "education_access_001",
-      "text": "I paid for the course, but it still isn't available in my account.",
-      "language": "en",
-      "domain": "education",
-      "source": "manual"
-    },
-    {
-      "id": "uk_fitness_0001",
-      "scenario_id": "fitness_access_001",
-      "text": "Я придбала програму тренувань, але не бачу її у своєму профілі.",
-      "language": "uk",
-      "domain": "fitness",
-      "source": "manual"
-    },
-    {
-      "id": "en_fitness_0001",
-      "scenario_id": "fitness_access_001",
-      "text": "I purchased the training program, but I can't see it in my profile.",
-      "language": "en",
-      "domain": "fitness",
-      "source": "manual"
-    }
-  ]
+  {
+    "id": "msg_000001",
+    "scenario_id": "scenario_0001",
+    "text": "Після оплати курс все одно недоступний у моєму кабінеті.",
+    "language": "uk",
+    "domain": "education",
+    "source": "manual"
+  },
+  {
+    "id": "msg_000002",
+    "scenario_id": "scenario_0001",
+    "text": "I paid for the course, but it still isn't available in my account.",
+    "language": "en",
+    "domain": "education",
+    "source": "manual"
+  },
+  {
+    "id": "msg_000003",
+    "scenario_id": "scenario_0002",
+    "text": "Я придбала програму тренувань, але не бачу її у своєму профілі.",
+    "language": "uk",
+    "domain": "fitness",
+    "source": "manual"
+  },
+  {
+    "id": "msg_000004",
+    "scenario_id": "scenario_0002",
+    "text": "I purchased the training program, but I can't see it in my profile.",
+    "language": "en",
+    "domain": "fitness",
+    "source": "manual"
+  }
+]

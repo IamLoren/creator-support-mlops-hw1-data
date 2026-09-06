@@ -22,7 +22,7 @@ Unique identifier of the dataset example.
 
 Example:
 
-`uk_education_0001`
+`msg_000001`
 
 The ID must be unique across the whole dataset.
 
@@ -39,13 +39,13 @@ Example:
 
 Ukrainian:
 
-`scenario_id: schedule_001`
+`scenario_id: scenario_0001`
 
 > "Коли буде наступний вебінар?"
 
 English:
 
-`scenario_id: schedule_001`
+`scenario_id: scenario_0001`
 
 > "When is the next webinar?"
 
@@ -164,59 +164,64 @@ agency, and other professional services.
 
 ### Example `id`
 
-Each dataset record must have a unique `id`.
+Each dataset record must have a unique and stable identifier.
 
 Format:
 
-`<language>_<domain>_<number>`
+`msg_<number>`
 
 Examples:
 
-- `uk_education_0001`
-- `en_education_0001`
-- `uk_fitness_0001`
-- `en_beauty_0012`
+- `msg_000001`
+- `msg_000002`
+- `msg_000003`
 
 Rules:
 
-- `language` must be either `uk` or `en`;
-- `domain` must be one of the allowed business domains;
-- the numeric part must contain four digits;
-- every record must have a unique `id`.
+- the numeric part contains six digits;
+- every dataset record must have a unique `id`;
+- the identifier must remain stable after the record is created;
+- the identifier must not encode language, domain, intent, or other metadata.
+
+Language, domain, source, and intent are stored in separate fields.
 
 ---
 
 ### `scenario_id`
 
-`scenario_id` identifies one semantic customer-support situation.
+`scenario_id` identifies a semantic customer-support scenario.
 
 Format:
 
-`<domain>_<intent_short_name>_<number>`
+`scenario_<number>`
 
 Examples:
 
-- `education_access_001`
-- `fitness_technical_001`
-- `beauty_schedule_002`
-- `professional_services_change_001`
+- `scenario_0001`
+- `scenario_0002`
+- `scenario_0003`
 
-Ukrainian and English examples that represent the same semantic
-scenario must use the same `scenario_id`.
+Ukrainian and English examples representing the same semantic scenario
+must use the same `scenario_id`.
 
 Example:
 
-Ukrainian:
+Ukrainian record:
 
-`id: uk_education_0001`
+`id: msg_000001`
 
-English:
+English record:
 
-`id: en_education_0001`
+`id: msg_000002`
 
-Both:
+Both records:
 
-`scenario_id: education_access_001`
+`scenario_id: scenario_0001`
 
-This makes it possible to keep semantically equivalent bilingual
-examples together during future train/validation/test splitting.
+The `scenario_id` does not encode domain or intent.
+
+Domain and intent information is stored separately.
+
+Keeping semantically equivalent bilingual examples under the same
+`scenario_id` will later help prevent data leakage during
+train/validation/test splitting.
