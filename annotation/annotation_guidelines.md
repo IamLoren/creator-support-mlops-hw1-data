@@ -458,3 +458,86 @@ Use:
 - `CHANGE_CANCEL` → the user wants to **change or cancel something already arranged**;
 - `SCHEDULE_DEADLINE` → the user only wants to know **when something happens**;
 - `SERVICE_INFO` → the user asks about **general rules or policies** without requesting a concrete change.
+
+---
+
+## 7. FEEDBACK_COMPLAINT
+
+### Definition
+
+Use `FEEDBACK_COMPLAINT` when the user's main goal is to express
+satisfaction, dissatisfaction, criticism, praise, or a general opinion
+about the product, service, support experience, content, or platform.
+
+Typical messages include:
+
+- positive feedback;
+- negative feedback;
+- complaints;
+- criticism;
+- praise;
+- statements about user experience.
+
+### Positive examples
+
+Ukrainian:
+
+- "Мені дуже сподобався курс, особливо практичні завдання."
+- "Я незадоволена якістю підтримки."
+- "Це вже третій день нічого нормально не працює."
+- "Матеріали дуже корисні, дякую."
+- "Сервіс став набагато гіршим після останнього оновлення."
+
+English:
+
+- "I really liked the course, especially the practical exercises."
+- "I'm unhappy with the quality of support."
+- "Nothing has been working properly for three days."
+- "The materials are very useful, thank you."
+- "The service has become much worse since the last update."
+
+### Do not use when
+
+Do not use `FEEDBACK_COMPLAINT` when the user's main goal is to report
+a specific technical problem and they appear to expect it to be fixed.
+
+Example:
+
+> "The video in lesson three won't play."
+
+Classification:
+
+`TECHNICAL_ISSUE`
+
+Do not use `FEEDBACK_COMPLAINT` when the user's main goal is to request
+a specific change or cancellation.
+
+Example:
+
+> "Скасуйте мою підписку."
+
+Classification:
+
+`CHANGE_CANCEL`
+
+### Feedback combined with an action request
+
+If a message contains feedback or dissatisfaction together with a clear
+request to perform an action, classify the message by the requested action.
+
+Example:
+
+> "Please cancel my subscription, I'm unhappy with the service."
+
+Classification:
+
+`CHANGE_CANCEL`
+
+### Boundary rule
+
+Use:
+
+- `FEEDBACK_COMPLAINT` → the main purpose is to **express an opinion,
+  satisfaction, dissatisfaction, criticism, or praise**;
+- `TECHNICAL_ISSUE` → the main purpose is to **report a concrete technical problem**;
+- `CHANGE_CANCEL` → the main purpose is to **request a concrete change or cancellation**.
