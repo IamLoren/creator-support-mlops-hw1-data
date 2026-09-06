@@ -541,3 +541,85 @@ Use:
   satisfaction, dissatisfaction, criticism, or praise**;
 - `TECHNICAL_ISSUE` → the main purpose is to **report a concrete technical problem**;
 - `CHANGE_CANCEL` → the main purpose is to **request a concrete change or cancellation**.
+
+---
+
+## 8. HUMAN_SUPPORT
+
+### Definition
+
+Use `HUMAN_SUPPORT` when the user's main goal is to explicitly request
+communication with a human support agent, manager, consultant, or other
+real person.
+
+Typical requests include:
+
+- asking to speak with a human;
+- asking to contact a manager;
+- requesting a support agent;
+- asking for a callback;
+- refusing automated assistance and requesting human help.
+
+### Positive examples
+
+Ukrainian:
+
+- "З'єднайте мене, будь ласка, з оператором."
+- "Я хочу поговорити з менеджером."
+- "Мені потрібна допомога живої людини."
+- "Передайте мій запит у підтримку."
+- "Нехай мені зателефонує консультант."
+
+English:
+
+- "Please connect me with a support agent."
+- "I want to speak to a manager."
+- "I need help from a real person."
+- "Please forward my request to human support."
+- "Can someone call me back?"
+
+### Do not use when
+
+Do not use `HUMAN_SUPPORT` simply because the user has a problem that
+could eventually require human assistance.
+
+Example:
+
+> "Не можу завантажити PDF."
+
+Classification:
+
+`TECHNICAL_ISSUE`
+
+Do not use `HUMAN_SUPPORT` when the user requests a specific business action
+and does not explicitly ask for a human.
+
+Example:
+
+> "Скасуйте мою консультацію."
+
+Classification:
+
+`CHANGE_CANCEL`
+
+### Human request overrides the underlying issue
+
+If the message contains a specific problem together with an explicit
+request to speak with a human, classify it as `HUMAN_SUPPORT`.
+
+Example:
+
+> "Я не можу увійти в акаунт, з'єднайте мене з оператором."
+
+Classification:
+
+`HUMAN_SUPPORT`
+
+### Boundary rule
+
+Use:
+
+- `HUMAN_SUPPORT` → the user explicitly requests **a human, operator,
+  manager, consultant, callback, or human support**;
+- another intent → the user describes a concrete problem or action request
+  without explicitly asking to communicate with a human.
