@@ -365,3 +365,96 @@ Use:
   or service**;
 - `TECHNICAL_ISSUE` → the content or feature **does not work correctly**;
 - `ACCESS_ACCOUNT` → the user **does not have permission or access**.
+
+---
+
+## 6. CHANGE_CANCEL
+
+### Definition
+
+Use `CHANGE_CANCEL` when the user's main goal is to modify, reschedule,
+extend, replace, cancel, or stop an existing booking, appointment,
+deadline, subscription, service, or other previously arranged condition.
+
+Typical requests include:
+
+- rescheduling an appointment;
+- changing a date or time;
+- extending a deadline;
+- cancelling a booking;
+- cancelling a subscription or service;
+- changing previously selected options.
+
+### Positive examples
+
+Ukrainian:
+
+- "Можна перенести консультацію на п'ятницю?"
+- "Хочу скасувати запис на завтра."
+- "Чи можна продовжити дедлайн ще на два дні?"
+- "Мені потрібно змінити дату консультації."
+- "Хочу відписатися від підписки."
+
+English:
+
+- "Can I move my appointment to Friday?"
+- "I want to cancel tomorrow's booking."
+- "Can you extend the deadline by two days?"
+- "I need to change the consultation date."
+- "I want to cancel my subscription."
+
+### Do not use when
+
+Do not use `CHANGE_CANCEL` when the user only asks when something is scheduled.
+
+Example:
+
+> "О котрій завтра консультація?"
+
+Classification:
+
+`SCHEDULE_DEADLINE`
+
+Do not use `CHANGE_CANCEL` when the user only asks general information
+about cancellation or rescheduling policies without requesting a change.
+
+Example:
+
+> "Чи можна взагалі переносити консультації?"
+
+Classification:
+
+`SERVICE_INFO`
+
+### Information request vs change request
+
+Use `SERVICE_INFO` when the user asks whether a change is possible
+or asks about the rules for making a change, but does not request
+the change itself.
+
+Example:
+
+> "Чи можна змінити email, до якого прив'язаний акаунт?"
+
+Classification:
+
+`SERVICE_INFO`
+
+Use `CHANGE_CANCEL` when the user explicitly requests that an existing
+setting, booking, deadline, subscription, or other arrangement be changed.
+
+Example:
+
+> "Змініть, будь ласка, email мого акаунта."
+
+Classification:
+
+`CHANGE_CANCEL`
+
+### Boundary rule
+
+Use:
+
+- `CHANGE_CANCEL` → the user wants to **change or cancel something already arranged**;
+- `SCHEDULE_DEADLINE` → the user only wants to know **when something happens**;
+- `SERVICE_INFO` → the user asks about **general rules or policies** without requesting a concrete change.
