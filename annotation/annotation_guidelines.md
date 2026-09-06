@@ -41,6 +41,24 @@ English:
 - "I paid for the course but I still don't have access."
 - "It says I don't have permission to view the materials."
 
+### Permission-related errors
+
+Use `ACCESS_ACCOUNT` when the message indicates that access is denied because of
+permissions or authorization, including errors such as:
+
+- `403 Forbidden`;
+- "Access denied";
+- "You don't have permission";
+- content marked as unavailable for the current user.
+
+Example:
+
+> "Сайт відкривається, але другий модуль показує 403 Forbidden."
+
+Classification:
+
+`ACCESS_ACCOUNT`
+
 ### Do not use when
 
 Do not use `ACCESS_ACCOUNT` if the user successfully has access to the platform
@@ -60,3 +78,60 @@ Use:
 
 - `ACCESS_ACCOUNT` → the user **cannot gain access**
 - `TECHNICAL_ISSUE` → the user **has access, but something does not work correctly**
+
+---
+
+## 2. TECHNICAL_ISSUE
+
+### Definition
+
+Use `TECHNICAL_ISSUE` when the user can access the platform, account, service, or content,
+but a technical component does not work correctly.
+
+Typical technical issues include problems with:
+
+- video playback;
+- file downloading;
+- broken buttons or links;
+- page loading;
+- application errors;
+- unexpected system behavior.
+
+### Positive examples
+
+Ukrainian:
+
+- "Відео в третьому уроці не запускається."
+- "Не можу завантажити PDF."
+- "Кнопка «Зберегти» не працює."
+- "Сторінка постійно показує помилку."
+
+English:
+
+- "The video in lesson three won't play."
+- "I can't download the PDF."
+- "The Save button doesn't work."
+- "The page keeps showing an error."
+
+### Do not use when
+
+Do not use `TECHNICAL_ISSUE` when the main problem is that the user does not have
+permission or access to the account, course, service, or materials.
+
+Do not use `TECHNICAL_ISSUE` for explicit authentication, authorization, or
+permission errors such as `401 Unauthorized` or `403 Forbidden`.
+
+Example:
+
+> "Пише, що в мене немає доступу до курсу."
+
+This should be classified as:
+
+`ACCESS_ACCOUNT`
+
+### Boundary rule
+
+Use:
+
+- `ACCESS_ACCOUNT` → the user cannot access the account, service, or content;
+- `TECHNICAL_ISSUE` → the user has access, but a technical feature or resource does not work correctly.
