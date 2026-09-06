@@ -135,3 +135,65 @@ Use:
 
 - `ACCESS_ACCOUNT` → the user cannot access the account, service, or content;
 - `TECHNICAL_ISSUE` → the user has access, but a technical feature or resource does not work correctly.
+
+---
+
+## 3. SCHEDULE_DEADLINE
+
+### Definition
+
+Use `SCHEDULE_DEADLINE` when the user's main request is about:
+
+- date;
+- time;
+- schedule;
+- deadline;
+- duration;
+- start or end time of an event;
+- when something will happen or must be completed.
+
+### Positive examples
+
+Ukrainian:
+
+- "Коли буде наступний вебінар?"
+- "До якого числа потрібно здати домашнє завдання?"
+- "О котрій починається консультація?"
+- "Скільки ще буде відкритий доступ до цього модуля?"
+
+English:
+
+- "When is the next webinar?"
+- "What is the deadline for the assignment?"
+- "What time does the consultation start?"
+- "How long will this module remain available?"
+
+### Do not use when
+
+Do not use `SCHEDULE_DEADLINE` if the user's main goal is to change or cancel an existing booking or event.
+
+Example:
+
+> "Можна перенести консультацію на п'ятницю?"
+
+This should be classified as:
+
+`CHANGE_CANCEL`
+
+Do not use `SCHEDULE_DEADLINE` if the user is asking general information about the service rather than a specific date, time, or deadline.
+
+Example:
+
+> "Скільки триває весь курс?"
+
+Depending on the dataset rules, this should usually be classified as:
+
+`SERVICE_INFO`
+
+### Boundary rule
+
+Use:
+
+- `SCHEDULE_DEADLINE` → the user wants to know **when** something happens, starts, ends, or must be completed;
+- `CHANGE_CANCEL` → the user wants to **modify or cancel** an existing schedule, booking, appointment, or service;
+- `SERVICE_INFO` → the user asks general descriptive information about the service or product.
