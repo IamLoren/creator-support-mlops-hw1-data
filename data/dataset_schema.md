@@ -157,3 +157,66 @@ appointments, procedures, and aftercare instructions.
 
 Examples related to consulting, legal, accounting,
 agency, and other professional services.
+
+---
+
+## Identifier Naming Rules
+
+### Example `id`
+
+Each dataset record must have a unique `id`.
+
+Format:
+
+`<language>_<domain>_<number>`
+
+Examples:
+
+- `uk_education_0001`
+- `en_education_0001`
+- `uk_fitness_0001`
+- `en_beauty_0012`
+
+Rules:
+
+- `language` must be either `uk` or `en`;
+- `domain` must be one of the allowed business domains;
+- the numeric part must contain four digits;
+- every record must have a unique `id`.
+
+---
+
+### `scenario_id`
+
+`scenario_id` identifies one semantic customer-support situation.
+
+Format:
+
+`<domain>_<intent_short_name>_<number>`
+
+Examples:
+
+- `education_access_001`
+- `fitness_technical_001`
+- `beauty_schedule_002`
+- `professional_services_change_001`
+
+Ukrainian and English examples that represent the same semantic
+scenario must use the same `scenario_id`.
+
+Example:
+
+Ukrainian:
+
+`id: uk_education_0001`
+
+English:
+
+`id: en_education_0001`
+
+Both:
+
+`scenario_id: education_access_001`
+
+This makes it possible to keep semantically equivalent bilingual
+examples together during future train/validation/test splitting.
